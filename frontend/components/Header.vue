@@ -7,11 +7,16 @@
         <div class="flex gap-8">
             <div class="flex items-center justify-center">
                 <img src="/public/shield_logo.png" alt="logo" class="h-5 w-5 mr-1"/>
-                <p class="text-xl">CSU BENCHMARK</p>
+                <NuxtLink to="/">
+                    <p class="text-xl">CSU BENCHMARK</p>
+                </NuxtLink>
             </div>
-            <div class="flex">
-                <p class="text-xl">DASHBOARD</p>
-            </div>
+            <NuxtLink to="/">
+                <div class="flex">
+                    <p class="text-xl">DASHBOARD</p>
+                </div>
+            </NuxtLink>
+            
         </div>
         <div class="flex gap-8">
             <p class="text-xl">SIGN UP</p>
